@@ -44,7 +44,8 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="proyectosinmobiliarios.html">Proyectos Inmobiliarios</a>
+                    <a class="dropdown-item" href="#servicios">Descripción de servicios</a>
+                    <a class="dropdown-item" href="nucleo-icons.html">Proyectos Inmobiliarios</a>
                     <a class="dropdown-item" href="#">Interventoría de Obra</a>
                     <a class="dropdown-item" href="#">Copropiedad</a>
                     <a class="dropdown-item" href="#">Construcción</a>
@@ -99,7 +100,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Servicios</h2>
+            <h2 class="section-heading">SERVICIOS</h2>
             <hr class="my-4">
           </div>
         </div>
@@ -108,63 +109,172 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-building text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Proyectos Inmobiliarios</h3>
-              <p class="text-muted mb-0">Si usted es inversionista en proyectos inmobiliarios le brindamos:</p>
+              <p class="text-muted mb-0"></p>
+              <!-- Trigger the modal with a button -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver más!</button>
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-dialog-centered">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                      <h5 class="modal-title" style="text-align:left">Si usted es inversionista en proyectos inmobiliarios le brindamos:</h4>
+                    </div>
+                    <div class="modal-body">
+                      <ul style="text-align:left">
+                        <li>Acompañamiento en la estructuración del proyecto inmobiliario.</li>
+                        <li>Seguimiento a la ejecución del proyecto en las fases de <strong>desarrollo, promoción y contrucción.</strong></li>
+                        <li>Control de la valorización de la inversión y el retorno del capital.</li>
+                        <li>Gestión de riesgos del proyecto.</li>
+                        <li>Cierre del proyecto y cumplimiento de objetivos.</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-search text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Interventoría de Obra</h3>
-              <p class="text-muted mb-0">Si construye le ofrecemos:</p>
-              <p><strong>INTERVENTORÍA TÉCNICA</strong></p>
-              <p>Revisión de diseños estructurales, supervisión técnica de obra, expedición de certificaciones técnicas de ocupación según<strong>NSR-10, Ley 400/97, Ley 1796/16.</strong></p>
-              <p>COntrol de programación de obra y gestión de riesgos.</p>
-              <p>Cumplimiento de la normatividad vigente, ambiental, seguridad industrial y salud ocupacional entre otras.</p>
-              <p>Seguimiento a la gestión de servivios públicos, manejo de tráfico, permisos y requerimientos especiales.</p>
-              <p>Emisión de Actas de entrega a satisfacción de obra ejecutada y validación de planos récord.</p>
-              <p>Elaboración de actas de vecindad y de espacio público.</p>
+              <!-- <p class="text-muted mb-0">Si construye le ofrecemos:</p> -->
+              <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"> -->
+                <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" style="margin-top:3px;">
+                ver más!
+              </button>
 
-              <p><strong>INTERVENTORÍA ADMINISTRATIVA</strong></p>
-              <p>Revisión de presupuestos de obra y control de costos.</p>
-              <p>Control de adquisiciones, compras y contrataciones, procedimientos administrativos y almacén.</p>
-              <p>Control de contratos de obra, legalización, vigencias, liquidación y revisión de actas de pago de obra ejecutada.</p>
-              <p>Elaboración y entrega de informes periódicos de avance de obra.</p>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Si construye, le ofrecemos:</h5>
+                      <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button> -->
+                    </div>
+                    <div class="modal-body">
+                      <h4>INTERVENTORÍA TÉCNICA</h4>
+                      <ul style="text-align:left">
+                        <li>Revisión de diseños estructurales, supervisión técnica de obra, expedición de certificaciones técnicas de ocupación según<strong>NSR-10, Ley 400/97, Ley 1796/16.</strong></li>
+                        <li>Control de programación de obra y gestión de riesgos.</li>
+                        <li>Cumplimiento de la normatividad vigente, ambiental, seguridad industrial y salud ocupacional entre otras.</li>
+                        <li>Seguimiento a la gestión de servivios públicos, manejo de tráfico, permisos y requerimientos especiales.</li>
+                        <li>Emisión de Actas de entrega a satisfacción de obra ejecutada y validación de planos récord.</li>
+                        <li>Elaboración de actas de vecindad y de espacio público.</li>
+                      </ul>
+                      <h4>INTERVENTORÍA ADMINISTRATIVA</h4>
+                      <ul style="text-align:left">
+                        <li>Revisión de presupuestos de obra y control de costos.</li>
+                        <li>Control de adquisiciones, compras y contrataciones, procedimientos administrativos y almacén.</li>
+                        <li>Control de contratos de obra, legalización, vigencias, liquidación y revisión de actas de pago de obra ejecutada.</li>
+                        <li>Elaboración y entrega de informes periódicos de avance de obra.</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Copropiedades</h3>
-              <p class="text-muted mb-0">Si es administrador o copropietario los asesoramos en:</p>
-              <p><strong>RECIBO DE BIENES COMUNES</strong></p>
-              <p>Conforme a la ley <strong>675/01</strong> y según licencia de construcción aprobada y normativa vigente.</p>
-              <p>Elaboración del plan y presupuesto de mantenimiento preventivo de bienes comunes</p>
-              <p>Revisión del Reglamento de Prpiedad Horizontal</p>
-              <p>Avalúo de bienes comunes para emisión de pólizas</p>
-              <p><strong>INSPECCIÓN TÉCNICA</strong></p>
-              <p>Evaluación del estado de los bienes comúnes de la copropiedad.</p>
-              <p>Identificación de prioridades de intervención y elaboración del plan y presupuesto de mantenimiento de bienes comunes.</p>
-              <p>Recomendación de obras de actualización de la copropiedad a la normatividad presente.</p>
-              <p><strong>INTERVENTORÍA DE OBRA</strong></p>
-              <p>Asesoría en la elaboración de pliegos de condiciones, convocatorias y contratación de obras de mantenimiento y construcción.</p>
-              <p>COntrol de contratos de obra, legalización, vigencias, aprobación de pagos, adiciones, prórrogas y liquidaciones.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter3" style="margin-top:35px;">
+                ver más!
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel3" style="text-align:left">Si es administrador o copropietario los asesoramos en:</h5>
+                      <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button> -->
+                    </div>
+                    <div class="modal-body">
+                      <h4>RECIBO DE BIENES COMUNES</h4>
+                      <ul style="text-align:left">
+                        <li>Conforme a la ley <strong>675/01</strong> y según licencia de construcción aprobada y normativa vigente.</li>
+                        <li>Elaboración del plan y presupuesto de mantenimiento preventivo de bienes comunes</li>
+                        <li>Revisión del Reglamento de Prpiedad Horizontal</li>
+                        <li>Avalúo de bienes comunes para emisión de pólizas</li>
+                      </ul>
+                      <h4>INSPECCIÓN TÉCNICA</h4>
+                      <ul style="text-align:left">
+                        <li>Evaluación del estado de los bienes comúnes de la copropiedad.</li>
+                        <li>Identificación de prioridades de intervención y elaboración del plan y presupuesto de mantenimiento de bienes comunes.</li>
+                        <li>Recomendación de obras de actualización de la copropiedad a la normatividad presente.</li>
+                      </ul>
+                      <h4>INTERVENTORÍA DE OBRA</h4>
+                      <ul style="text-align:left">
+                        <li>Asesoría en la elaboración de pliegos de condiciones, convocatorias y contratación de obras de mantenimiento y construcción.</li>
+                        <li>Control de contratos de obra, legalización, vigencias, aprobación de pagos, adiciones, prórrogas y liquidaciones.</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-bank text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">CONSTRUCCIÓN</h3>
-              <p class="text-muted mb-0">Y si desea contruir:</p>
-              <p>Estructuramos y gerenciamos proyectos inmobiliarios.</p>
-              <p>Diseñamos y construimos edificaciones y obras de urbanismo.</p>
-              <p>Tramitamos licencias de contrucción, de urbanismo y permisos especiales.</p>
-              <p>Elaboramos planes de manejo de tráfico y de manejo ambiental.</p>
-              <p>Elaboramos presupuestos y orogramaciones de obra.</p>
-              <p>Realizamos obras de adecuación y remodelación de edificaciones e inmuebles.</p>
-              <p>Realizamos obras de mantenimiento y adecuación de zonas comunes.</p>
-              <p>Nos especializamos en suministro e instalación de sistemas de impermeabilización y cubiertas.</p>
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style=margin-top:34px;>
+                ver más!
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Y si desea construír:</h5>
+                      <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button> -->
+                    </div>
+                    <div class="modal-body">
+                      <ul style="text-align:left">
+                        <li>Estructuramos y gerenciamos proyectos inmobiliarios.</li>
+                        <li>Diseñamos y construimos edificaciones y obras de urbanismo.</li>
+                        <li>Tramitamos licencias de contrucción, de urbanismo y permisos especiales.</li>
+                        <li>Elaboramos planes de manejo de tráfico y de manejo ambiental.</li>
+                        <li>Elaboramos presupuestos y orogramaciones de obra.</li>
+                        <li>Realizamos obras de adecuación y remodelación de edificaciones e inmuebles.</li>
+                        <li>Realizamos obras de mantenimiento y adecuación de zonas comunes.</li>
+                        <li>Nos especializamos en suministro e instalación de sistemas de impermeabilización y cubiertas.</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
