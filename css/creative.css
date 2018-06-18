@@ -4,7 +4,11 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif, 'ITC Eras';
+}
+
+.carousel {
+  margin-left: 22px;
 }
 
 .carousel-item img{
@@ -28,6 +32,24 @@ hr {
 hr.light {
   border-color: #fff;
 }
+
+/*.new-site .home .intro{
+position: relative;
+background-image: linear-gradient(rgba(28,28,48,0.77), rgba(28,28,48,0.77)),url(/img/header.jpg) no-repeat 60% 50%;
+}*/
+
+.home-wrapper{
+	background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/header.jpg') no-repeat center top;
+	/*background-size: cover;*/
+	/*color: white;
+	background-attachment: fixed;*/
+
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+ }
 
 a {
   color: #F05F40;
@@ -62,11 +84,15 @@ h6 {
 }
 
 section {
-  padding: 2rem 0 6rem 0;
+  padding: 10rem;
 }
 
 .section-heading {
   margin-top: 0;
+}
+
+#portafolio {
+  padding: 4rem;
 }
 
 ::-moz-selection {
@@ -181,25 +207,21 @@ header.masthead {
   /*padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);*/
   /*background-image: url("../img/header.jpg");*/
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-size: cover;
+  /*background-size: cover;*/
+  /*background-size: cover;*/
   /*background-position: center center;*/
   /*width: 100%;
   height: 100%;*/
   z-index: -1;
-  background: rgba(44, 44, 44, 0.2);
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(18, 23, 3, 0.6));
+  /*background: rgba(44, 44, 44, 0.2);*/
+   /*For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(18, 23, 3, 0.6));*/
   /* For Safari 5.1 to 6.0 */
-  /*background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 283, 3, 0.6));*/
+  background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 68, 1.6));
   /* For Opera 11.1 to 12.0 */
-  /*background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));*/
+  background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
   /* For Firefox 3.6 to 15 */
-  /*background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));*/
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
   /* Standard syntax */
 
 }
@@ -373,6 +395,10 @@ section#contact {
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#contacto{
+padding: 4rem;
 }
 
 section#contact .section-heading {
