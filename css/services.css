@@ -1,0 +1,11 @@
+body{
+	background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/header1.jpg') no-repeat center top;
+	/*background-size: cover;*/
+	/*color: white;
+	background-attachment: fixed;*/
+  /*background-position: center center;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+ }
