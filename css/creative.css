@@ -37,16 +37,22 @@ hr.light {
   background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) );
 }
 
+#particles-js{
+  /*background: url(../img/London.jpg);*/
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
 .home-wrapper{
 	background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/header1.jpg') no-repeat center top;
 	/*background-size: cover;*/
-	/*color: white;
+  /*color: white;
 	background-attachment: fixed;*/
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
  }
 
 a {
@@ -61,18 +67,28 @@ a:hover {
 }
 
 .services1{
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .serviciosDescipcion{
   text-align: justify;
 }
 
+#servicios{
+  padding: 200px;
+}
+
+#acerca{
+  padding: 180px;
+}
 
 .bg-primary {
   background-color: rgb(163, 0, 0) !important;
   /*background-color: rgb(97, 13, 0) !important;*/
 
+}
+.dropdown-item{
+  color: orange;
 }
 
 .bg-dark {

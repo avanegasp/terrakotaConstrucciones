@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',serif;font-weight:700;text-transform:uppercase;color:#343a40}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}.subheading{text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',serif;font-size:1.35rem}.list-social-icons a{color:#495057}.list-social-icons a:hover{color:#bd5d38}.list-social-icons a .fa-lg{font-size:1.75rem}.list-icons{font-size:3rem}.list-icons .list-inline-item i:hover{color:#bd5d38}#sideNav section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}.text-primary{color:#bd5d38!important}a{color:#bd5d38}a:active,a:focus,a:hover{color:#824027}
+h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',serif;font-weight:700;text-transform:uppercase;color:#E68F4C}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}.subheading{text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',serif;font-size:1.35rem}.list-social-icons a{color:#495057}.list-social-icons a:hover{color:#bd5d38}.list-social-icons a .fa-lg{font-size:1.75rem}.list-icons{font-size:3rem}.list-icons .list-inline-item i:hover{color:#bd5d38}#sideNav section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}.text-primary{color:#bd5d38!important}a{color:#bd5d38}a:active,a:focus,a:hover{color:#824027}
 
 
 
@@ -96,7 +96,7 @@ body{
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgb(97, 13, 0);
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -127,13 +127,13 @@ body{
   }
   .social-icons ul > li > a {
     transition: all 0.2s ease-in-out;
-    font-size: 2rem;
-    line-height: 4rem;
-    height: 4rem;
-    width: 4rem;
+    font-size: 1rem;
+    line-height: 3rem;
+    height: 3rem;
+    width: 3rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: #002E66;
+    background-color: #E68F4C;
   }
 
 

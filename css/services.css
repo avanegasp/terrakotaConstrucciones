@@ -1,9 +1,9 @@
 body{
 	background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/header1.jpg') no-repeat center top;
-	/*background-size: cover;*/
-	/*color: white;*/
+	background-size: cover;
 	background-attachment: fixed;
-  /*background-position: center center;*/
+	color: white;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,9 +23,67 @@ ul{
 }
 
  .row{
-	 margin-left: -60px;
+	 margin-left: -140px;
+	 margin-top: -45px;
  }
 
 .social-icons{
 	position: fixed;
 }
+
+.container{
+	margin-top: 60px;
+	margin-left: -55px;
+	margin-bottom: 60px;
+}
+
+.serviciosInicio{
+	 margin-left:870px;
+	 position:fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#construccionLista{
+	margin-left: 130px;
+	font-size: 22px;
+	color: #000000;
+}*/
+
+/*.home-wrapper{*/
+	/*background: url('../img/header1.jpg') no-repeat center top;*/
+	/*background: url('../img/header1.jpg') no-repeat center top;
+	background-size: cover;*/
+	/*background-attachment: fixed;*/
+	/*background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	padding: 35px;
+	margin-top: 125px;
+	margin-left: -230px;
+}*/
+
+/*#home{*/
+	/*padding: 500px;*/
+/*}*/
+
+/*.container{
+	width: 992px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
