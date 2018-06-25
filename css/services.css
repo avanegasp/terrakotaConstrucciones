@@ -48,8 +48,10 @@ ul{
 		margin-top: -45px;
 	}
 	.social-icons{
-		position: relative;
+		/*background-color: blue;*/
 	}
+
+
 }
 
 
@@ -63,6 +65,11 @@ ul{
 			margin-left: 14px;
 		}
 
+		.social-icons{
+			/*background-color: yellow;*/
+			/*display: contents;*/
+
+		}
   }
 
 	@media (min-width: 992px) {

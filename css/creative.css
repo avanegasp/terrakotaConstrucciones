@@ -228,6 +228,13 @@ header.masthead h1 {
     color: red;
   }
 }*/
+#acerca .container{
+  display: table;
+}
+
+#servicios{
+  display: inline-table !important;
+}
 
 @media (min-width: 480px) {
  .container{
@@ -320,6 +327,9 @@ header.masthead h1 {
     margin-left: -70px;
     margin-right: -70px;
   }
+  .carousel{
+    margin-left: 11px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -403,6 +413,9 @@ header.masthead h1 {
   }
   #servicios{
     padding: 180px;
+  }
+  #portafolio .container{
+    background-color: green;
   }
 }
 
