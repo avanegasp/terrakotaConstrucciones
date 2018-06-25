@@ -39,9 +39,9 @@ hr.light {
 
 #particles-js{
   /*background: url(../img/London.jpg);*/
-  background-position: center;
+  /*background-position: center;
   background-attachment: contain;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .home-wrapper{
@@ -195,6 +195,160 @@ img::-moz-selection {
   background-color: transparent;
 }
 
+
+header.masthead {
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  /* Standard syntax */
+}
+
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+
+header.masthead h1 {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size:50px;
+  margin-top: 60px;
+}
+
+
+/*@media (min-width: 441px) {
+  header.masthead h1{
+    color: red;
+  }
+}*/
+
+@media (min-width: 480px) {
+ .container{
+   /*background-color: red;*/
+ }
+ #acerca .row{
+   margin-left: -120px;
+   display: table-caption;
+ }
+
+ #servicios{
+   display: table-footer-group;
+ }
+
+ #servicios h2{
+   margin-top: 25px;
+ }
+
+ .construccion{
+   margin-bottom: 25px;
+ }
+
+ .carousel{
+   margin-left: -145px;
+   margin-right: -85px;
+ }
+ #portafolio .text-center{
+   margin-left: -50px;
+ }
+
+ .team-member{
+   margin-left: -53px;
+ }
+
+  #equipo p{
+    margin-left: -110px;
+    margin-right: -110px;
+  }
+
+  #equipo h2{
+    margin-left: -50px;
+    margin-right: -50px;
+    font-size: 20px;
+  }
+
+  #equipo h3{
+    margin-left: -80px;
+    margin-right: -80px;
+    font-size: 19px;
+  }
+
+  #equipo .team-member img{
+    width: 200px;
+    height: 210px;
+  }
+
+  #experiencia .row{
+    margin-left: -50px;
+    margin-right: 50px;
+  }
+
+  #experiencia .experiencia{
+    margin-left: 50px;
+    margin-right: -50px;
+  }
+
+  #contact .row {
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  /*header.masthead{
+    margin-top: 55px;
+  }*/
+
+  #servicios{
+    padding: 125px;
+  }
+  #portafolio .container{
+    margin-left: 64px;
+  }
+  #portafolio .justify-content-center{
+    margin-left: -150px;
+  }
+  #equipo .row{
+    margin-left: -70px;
+    margin-right: -70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+  #servicios .row {
+    margin-left: -90px;
+    margin-right: -90px;
+  }
+} #contact h5{
+  font-size: 14px;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -237,47 +391,18 @@ img::-moz-selection {
   }
 }
 
-header.masthead {
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-  /* Standard syntax */
-}
-
-
-header.masthead hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-header.masthead h1 {
-  font-size: 2rem;
-}
-
-header.masthead p {
-  font-weight: 300;
-}
-
-@media (min-width: 768px) {
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-}
-
-@media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 650px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
-}
-
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 4rem;
+  }
+  .carousel{
+    margin-left: 90px;
+  }
+  #contact h5{
+    font-size: 18px;
+  }
+  #servicios{
+    padding: 180px;
   }
 }
 
@@ -365,14 +490,6 @@ header.masthead p {
   outline: none;
 }
 
-@media (min-width: 768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
-  }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
-  }
-}
 
 .text-primary {
   color: #ffffff !important;
