@@ -37,9 +37,30 @@ ul{
 	margin-bottom: 60px;
 }
 
+.superior{
+	/*display: table-row-group;*/
+}
+
+
 .serviciosInicio{
 	 margin-left:870px;
 	 position:fixed;
+}
+
+@media (min-width: 350px) {
+	.container{
+		/*background-color: red;*/
+		display: table-row-group;
+	}
+	.row{
+		margin-left: -2px;
+		margin-top: 2px;
+	}
+
+	.social-icons{
+		position: absolute;
+	}
+
 }
 
 @media (min-width: 480px) {
@@ -53,8 +74,6 @@ ul{
 
 
 }
-
-
 
 @media (min-width: 768px) {
 		.container{

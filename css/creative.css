@@ -129,6 +129,15 @@ section {
   padding: 4rem;
 }
 
+#portafolio .tituloPortafolio{
+  margin-left: -75px;
+  margin-right: 75px;
+}
+
+#experiencia .logos{
+  margin-left: 80px;
+}
+
 ::-moz-selection {
   color: #fff;
   background: #212529;
@@ -146,6 +155,10 @@ img::selection {
   background: transparent;
 }
 
+#acerca .row{
+  margin-left: 60px !important;
+  margin-right: -60px;
+}
 img::-moz-selection {
   color: #fff;
   background: transparent;
@@ -236,6 +249,15 @@ header.masthead h1 {
   display: inline-table !important;
 }
 
+#equipo .row{
+  margin-left: 75px;
+  /*margin-right: -135px;*/
+}
+
+/*#experienca .fotos{
+  margin-left: 1px;
+}*/
+
 @media (min-width: 350px) {
   h1.text-uppercase.titulo{
     margin-top: 97px;
@@ -243,7 +265,7 @@ header.masthead h1 {
   }
 
   .container{
-    /*background-color: purple;*/
+    background-color: purple;
     display: block;
   }
 
@@ -262,7 +284,7 @@ header.masthead h1 {
 
 @media (min-width: 480px) {
  .container{
-   /*background-color: red;*/
+   background-color: red;
  }
  #acerca .row{
    margin-left: -120px;
@@ -334,6 +356,10 @@ header.masthead h1 {
   header.masthead p {
     font-size: 1.15rem;
   }
+
+  .container{
+    background-color: green;
+  }
   /*header.masthead{
     margin-top: 55px;
   }*/
@@ -345,14 +371,31 @@ header.masthead h1 {
     margin-left: 64px;
   }
   #portafolio .justify-content-center{
-    margin-left: -150px;
+    margin-left: 2px;
   }
+
+  #portafolio a.carousel-control-next{
+    right: 220px;
+  }
+
+  #portafolio .carousel-caption{
+    right: 110px;
+    left: -110px;
+  }
+
+  /*#portafolio .text-center{
+    margin-left: 115px;
+  }*/
+
   #equipo .row{
     margin-left: -70px;
     margin-right: -70px;
   }
+
+
   .carousel{
     margin-left: 11px;
+    margin-right: 50px;
   }
 }
 
@@ -378,6 +421,9 @@ header.masthead h1 {
   #servicios .row {
     margin-left: -90px;
     margin-right: -90px;
+  }
+  .container{
+    background-color: grey;
   }
 } #contact h5{
   font-size: 14px;
@@ -430,7 +476,7 @@ header.masthead h1 {
     font-size: 4rem;
   }
   .carousel{
-    margin-left: 90px;
+    margin-left: 170px;
   }
   #contact h5{
     font-size: 18px;
@@ -439,7 +485,7 @@ header.masthead h1 {
     padding: 180px;
   }
   #portafolio .container{
-    /*background-color: green;*/
+    /*background-color: yellow;*/
   }
 }
 
