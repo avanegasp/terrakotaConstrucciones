@@ -236,6 +236,30 @@ header.masthead h1 {
   display: inline-table !important;
 }
 
+@media (min-width: 350px) {
+  h1.text-uppercase.titulo{
+    margin-top: 97px;
+    display: flow-root;
+  }
+
+  .container{
+    /*background-color: purple;*/
+    display: block;
+  }
+
+  /*.home-wrapper{
+    display: inline-block;
+  }*/
+
+  #acerca{
+    margin-left: -170px;
+  }
+
+  #servicios.bg-primary{
+    display: initial;
+  }
+}
+
 @media (min-width: 480px) {
  .container{
    /*background-color: red;*/
@@ -415,8 +439,12 @@ header.masthead h1 {
     padding: 180px;
   }
   #portafolio .container{
-    background-color: green;
+    /*background-color: green;*/
   }
+}
+
+.superior{
+  display: table-row-group;
 }
 
 .service-box {
