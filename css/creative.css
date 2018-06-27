@@ -67,7 +67,7 @@ a:hover {
 }
 
 .services1{
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .serviciosDescipcion{
@@ -134,9 +134,9 @@ section {
   margin-right: 75px;
 }
 
-#experiencia .logos{
+/*#experiencia .logos{
   margin-left: 80px;
-}
+}*/
 
 ::-moz-selection {
   color: #fff;
@@ -352,6 +352,38 @@ header.masthead h1 {
   }
 }
 
+
+@media (min-width: 640px) {
+  .container{
+    background-color: blue;
+  }
+  #portafolio .carousel-inner{
+    margin-left: 19px;
+  }
+
+  #equipo .foto1{
+    margin-left: -230px;
+  }
+
+  #equipo .foto2{
+    margin-right: -64px;
+  }
+
+  #equipo .parrafo{
+    margin-left: -224px;
+    margin-right: -111px;
+  }
+  #equipo .equipoTitulo{
+    margin-left: -45px;
+  }
+
+  #experiencia .experienciaParrafo{
+    margin-left: 50px;
+    margin-right: -50px;
+  }
+}
+
+
 @media (min-width: 768px) {
   header.masthead p {
     font-size: 1.15rem;
@@ -374,14 +406,14 @@ header.masthead h1 {
     margin-left: 2px;
   }
 
-  #portafolio a.carousel-control-next{
+  /*#portafolio a.carousel-control-next{
     right: 220px;
-  }
+  }*/
 
-  #portafolio .carousel-caption{
+  /*#portafolio .carousel-caption{
     right: 110px;
     left: -110px;
-  }
+  }*/
 
   /*#portafolio .text-center{
     margin-left: 115px;
@@ -392,10 +424,23 @@ header.masthead h1 {
     margin-right: -70px;
   }
 
+  #equipo .foto1{
+    margin-left: 1px;
+  }
+
+  #equipo .parrafo{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
 
   .carousel{
     margin-left: 11px;
     margin-right: 50px;
+  }
+
+  #portafolio .carousel-inner{
+    width: 480px;
   }
 }
 
@@ -470,6 +515,9 @@ header.masthead h1 {
     color: #F05F40;
   }
 }
+#servicios{
+  padding: 180px;
+}
 
 @media (min-width: 1200px) {
   header.masthead h1 {
@@ -481,11 +529,8 @@ header.masthead h1 {
   #contact h5{
     font-size: 18px;
   }
-  #servicios{
-    padding: 180px;
-  }
   #portafolio .container{
-    /*background-color: yellow;*/
+    background-color: yellow;
   }
 }
 
