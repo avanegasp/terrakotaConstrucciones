@@ -314,7 +314,7 @@ header.masthead h1 {
 
 @media (min-width: 480px) {
  .container{
-   /*background-color: red;*/
+   background-color: red;
  }
  #acerca .row{
    margin-left: -120px;
@@ -327,7 +327,31 @@ header.masthead h1 {
 
  #servicios h2{
    margin-top: 25px;
- }
+}
+
+#equipo .foto1{
+  margin-left: -230px;
+}
+
+#equipo .foto2{
+  margin-right: -64px;
+}
+
+#carouselExampleIndicators{
+  margin-left: -82px;
+}
+
+#equipo .equipoTitulo{
+  margin-left: -47px;
+}
+.parrafoExperiencia{
+  margin-left: 50px;
+}
+
+#equipo .parrafoFinal{
+  margin-left: -148px;
+  margin-right: -44px;
+}
 
  .construccion{
    margin-bottom: 25px;
@@ -394,7 +418,7 @@ header.masthead h1 {
 
 @media (min-width: 640px) {
   .container{
-    /*background-color: blue;*/
+    background-color: blue;
   }
   /*#portafolio .carousel-inner{
     margin-left: 19px;
@@ -412,9 +436,9 @@ header.masthead h1 {
     margin-left: -224px;
     margin-right: -111px;
   }*/
-  /*#equipo .equipoTitulo{
+  #equipo .equipoTitulo{
     margin-left: -45px;
-  }*/
+  }
 
   #carouselExampleIndicators{
     margin-left: -82px;
@@ -442,7 +466,7 @@ header.masthead h1 {
   }
 
   .container{
-    /*background-color: green;*/
+    background-color: green;
   }
   /*header.masthead{
     margin-top: 55px;
@@ -454,6 +478,10 @@ header.masthead h1 {
 
   a.carousel-control-next{
     right:37px;
+  }
+
+  #equipo .parrafoFinal{
+    margin-left: -35px;
   }
 
   #servicios{
@@ -497,7 +525,9 @@ header.masthead h1 {
     margin-right: 50px;
   }
 
-
+  #equipo .equipoTitulo{
+    margin-left: 2px;
+  }
 
   .carousel{
     margin-left: -72px;
@@ -516,6 +546,7 @@ header.masthead h1 {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
+
 }
 
 /*@media (min-width: 992px) {
