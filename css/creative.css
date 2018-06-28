@@ -392,13 +392,13 @@ header.masthead h1 {
 }
 
 
-/*@media (min-width: 640px) {
+@media (min-width: 640px) {
   .container{
-    background-color: blue;
+    /*background-color: blue;*/
   }
-  #portafolio .carousel-inner{
+  /*#portafolio .carousel-inner{
     margin-left: 19px;
-  }
+  }*/
 
   #equipo .foto1{
     margin-left: -230px;
@@ -408,19 +408,32 @@ header.masthead h1 {
     margin-right: -64px;
   }
 
-  #equipo .parrafo{
+  /*#equipo .parrafo{
     margin-left: -224px;
     margin-right: -111px;
-  }
-  #equipo .equipoTitulo{
+  }*/
+  /*#equipo .equipoTitulo{
     margin-left: -45px;
+  }*/
+
+  #carouselExampleIndicators{
+    margin-left: -82px;
   }
 
+  .parrafoExperiencia{
+    margin-left: 50px;
+  }
+
+  #equipo .parrafoFinal{
+    margin-left: -148px;
+    margin-right: -44px;
+  }
+/*
   #experiencia .experienciaParrafo{
     margin-left: 50px;
     margin-right: -50px;
-  }
-}*/
+  }*/
+}
 
 
 @media (min-width: 768px) {
