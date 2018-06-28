@@ -7,6 +7,23 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', 'Euphoria Script', Arial, sans-serif;
 }
 
+#equipo .text-muted .parrafo {
+    color: white;
+  }
+
+  .parrafoExperiencia{
+    text-align:center;
+    font-size:22px;
+    margin-top:27px;
+    margin-right:50px;
+    /*margin-left:-50px;*/
+  }
+
+  .experiencia{
+    margin-left: 1px;
+  }
+
+
 /*.container{
   background-color: white;
 }*/
@@ -466,6 +483,7 @@ header.masthead h1 {
     margin-left: 50px;
     margin-right: 50px;
   }
+
 
 
   .carousel{
