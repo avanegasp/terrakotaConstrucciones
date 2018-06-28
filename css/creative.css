@@ -278,7 +278,7 @@ header.masthead h1 {
   }
 
   .container{
-    background-color: purple;
+    /*background-color: purple;*/
     display: block;
   }
 
@@ -297,7 +297,7 @@ header.masthead h1 {
 
 @media (min-width: 480px) {
  .container{
-   background-color: red;
+   /*background-color: red;*/
  }
  #acerca .row{
    margin-left: -120px;
@@ -412,7 +412,7 @@ header.masthead h1 {
   }
 
   .container{
-    background-color: green;
+    /*background-color: green;*/
   }
   /*header.masthead{
     margin-top: 55px;
@@ -555,7 +555,7 @@ header.masthead h1 {
 
 @media (min-width: 1024px) {
   .container{
-    background-color: #2B0E0D;
+    /*background-color: #2B0E0D;*/
   }
 
   .carousel{
