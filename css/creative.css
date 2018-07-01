@@ -19,8 +19,28 @@ body {
     /*margin-left:-50px;*/
   }
 
-  .experiencia{
+  /*.experiencia{
     margin-left: 1px;
+  }*/
+
+  /*.text-center .experiencia{
+    margin-left: 2px;
+  }*/
+
+ #experiencia .text-center.experiencia{
+   margin-left: 2px;
+ }
+  .tituloInicial{
+  padding: 140px;
+  }
+
+  .row .parrafoTitulo{
+    font-size: 29px;
+  }
+
+  h1 .text-uppercase.titulo{
+    margin-top: 52px;
+
   }
 
 
@@ -105,11 +125,11 @@ a:hover {
 }
 
 #servicios{
-  padding: 200px;
+  padding: 35px;
 }
 
 #acerca{
-  padding: 180px;
+  padding: 240px;
 }
 
 .bg-primary {
@@ -133,6 +153,7 @@ a:hover {
 
 #experiencia{
   padding: 40px;
+
 }
 
 #contact{
@@ -277,6 +298,7 @@ header.masthead h1 {
 
 #servicios{
   display: inline-table !important;
+  /*padding: 23px;*/
 }
 
 #equipo .row{
@@ -314,7 +336,7 @@ header.masthead h1 {
 
 @media (min-width: 480px) {
  .container{
-   background-color: red;
+   /*background-color: red;*/
  }
  #acerca .row{
    margin-left: -120px;
@@ -418,7 +440,7 @@ header.masthead h1 {
 
 @media (min-width: 640px) {
   .container{
-    background-color: blue;
+    /*background-color: blue;*/
   }
   /*#portafolio .carousel-inner{
     margin-left: 19px;
@@ -466,7 +488,7 @@ header.masthead h1 {
   }
 
   .container{
-    background-color: green;
+    /*background-color: green;*/
   }
   /*header.masthead{
     margin-top: 55px;
@@ -481,7 +503,7 @@ header.masthead h1 {
   }
 
   #equipo .parrafoFinal{
-    margin-left: -35px;
+    margin-left: -35
   }
 
   #servicios{
