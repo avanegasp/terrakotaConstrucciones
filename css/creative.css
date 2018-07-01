@@ -31,7 +31,7 @@ body {
    margin-left: 2px;
  }
   .tituloInicial{
-  padding: 140px;
+  padding: 140px !important;
   }
 
   .row .parrafoTitulo{
@@ -124,9 +124,9 @@ a:hover {
   text-align: justify;
 }
 
-#servicios{
+/*#servicios{
   padding: 35px;
-}
+}*/
 
 #acerca{
   padding: 240px;
@@ -150,11 +150,11 @@ a:hover {
   height: 120px;
   margin-left: 110px;
 }
-
+/*
 #experiencia{
   padding: 40px;
 
-}
+}*/
 
 #contact{
   padding: 100px;
@@ -185,9 +185,9 @@ section {
   margin-right: 75px;
 }
 
-/*#experiencia .logos{
-  margin-left: 80px;
-}*/
+#experiencia .logos{
+  margin-left: -45px;
+}
 
 ::-moz-selection {
   color: #fff;
@@ -446,13 +446,27 @@ header.masthead h1 {
     margin-left: 19px;
   }*/
 
+  #portafolio .tituloPortafolio{
+    margin-left: 35px;
+  }
+
+  .tituloInicial{
+    padding: 1px;
+  }
+
+
   #equipo .foto1{
     margin-left: -230px;
   }
 
   #equipo .foto2{
     margin-right: -64px;
-  }
+}
+
+/*#parrafo .parrafoFinal{
+  margin-left: -258px;
+  margin-right: -165px;*/
+}
 
   /*#equipo .parrafo{
     margin-left: -224px;
@@ -468,6 +482,7 @@ header.masthead h1 {
 
   .parrafoExperiencia{
     margin-left: 50px;
+    margin-right: -33px;
   }
 
   #equipo .parrafoFinal{
@@ -504,6 +519,11 @@ header.masthead h1 {
 
   #equipo .parrafoFinal{
     margin-left: -35
+  }
+
+  .parrafoExperiencia{
+    margin-left: 25px;
+    margin-right: -92px;
   }
 
   #servicios{
@@ -555,6 +575,8 @@ header.masthead h1 {
     margin-left: -72px;
     margin-right: -25px;
   }
+
+
 
   /*#portafolio .carousel-inner{
     width: 480px;
